@@ -1,0 +1,28 @@
+---
+title: "Bayes and Fagan"
+format: html
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+```{r}
+pre <- 0.20; LRp <- 4
+odds <- pre/(1-pre)
+post <- (odds*LRp)/(1+odds*LRp)
+print(post)   # expect 0.5
+```
+
+```{r}
+prob_to_odds <- function(p) p/(1-p)
+odds_to_prob <- function(o) o/(1+o)
+post_prob <- function(pre, LR) odds_to_prob(prob_to_odds(pre)*LR)
+
+cases <- data.frame(
+  case=c("Pneumonia (LR+ 5)","PE (LR− 0.2)","Appendicitis (LR+ 12)"),
+  pretest=c(0.30,0.60,0.05),
+  LR=c(5,0.2,12)
+)
+cases$posterior <- mapply(post_prob, cases$pretest, cases$LR)
+knitr::kable(cases, digits=3)
+```
