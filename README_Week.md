@@ -28,13 +28,16 @@ Tooling (5–10): Create/verify repo `week1-bayes-foundations`; enable 2FA; Quar
 Ship: commit `day1: algebra notes, LR notes, first render`.
 
 ## Day 2 (45–75 min)
-## Day 2 — Tooling Links
-- GitHub Markdown basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-- GitHub writing quickstart: https://docs.github.com/en/get-started/wwriting-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
-- GitHub-Flavored Markdown spec: https://github.github.com/gfm/
-- Python docs (latest): https://docs.python.org/3/
-- Python tutorial: https://docs.python.org/3/tutorial/index.html
-- Python docs by version: https://www.python.org/doc/versions/
+- Markdown Crash Course (video): https://www.youtube.com/watch?v=HUBNt18RFbo
+- GitHub Markdown basics (docs): https://docs.github.com/.../basic-writing-and-formatting-syntax
+- Quickstart: writing on GitHub (docs): https://docs.github.com/.../quickstart-for-writing-on-github
+- VS Code intro videos (official): https://code.visualstudio.com/docs/getstarted/introvideos
+- VS Code tips (official page): https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+- Git & GitHub Crash Course 2025 (video): https://www.youtube.com/watch?v=vA5TTz6BXhY
+- Python functions (Corey Schafer, video): https://www.youtube.com/watch?v=9Os0o3wzS_I
+- Python in ~15 min (video): https://www.youtube.com/watch?v=1KGWF704DUA
+- Python docs (home): https://docs.python.org/3/
+- Python tutorial (official): https://docs.python.org/3/tutorial/index.html
 
 ## Day 3 (45–75 min)
 Algebra (10–15): Multi-step linear equations.
@@ -77,4 +80,5 @@ Ship: `day7: weekly summary + publish`.
 - Pre 0.20, LR+ 4 → 0.50
 - Pre 0.60, LR− 0.2 → ≈0.231
 - Pre 0.05, LR+ 12 → ≈0.387
+
 
