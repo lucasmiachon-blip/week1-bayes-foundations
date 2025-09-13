@@ -28,11 +28,13 @@ Tooling (5–10): Create/verify repo `week1-bayes-foundations`; enable 2FA; Quar
 Ship: commit `day1: algebra notes, LR notes, first render`.
 
 ## Day 2 (45–75 min)
-Algebra (10–15): Percents ↔ decimals; ratios.
-Probability/Bayes (15–25): Sensitivity, specificity → compute LR+ and LR− on examples.
-Programming (10–15): Write `post_prob(pre, LR)` and test 3 cases in R/Python.
-Tooling (5–10): Add bookmarks and update `README_Math.md` / `README_Bayesian_EBM.md`.
-Ship: `day2: post_prob + notes`.
+## Day 2 — Tooling Links
+- GitHub Markdown basics: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+- GitHub writing quickstart: https://docs.github.com/en/get-started/wwriting-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+- GitHub-Flavored Markdown spec: https://github.github.com/gfm/
+- Python docs (latest): https://docs.python.org/3/
+- Python tutorial: https://docs.python.org/3/tutorial/index.html
+- Python docs by version: https://www.python.org/doc/versions/
 
 ## Day 3 (45–75 min)
 Algebra (10–15): Multi-step linear equations.
@@ -75,3 +77,4 @@ Ship: `day7: weekly summary + publish`.
 - Pre 0.20, LR+ 4 → 0.50
 - Pre 0.60, LR− 0.2 → ≈0.231
 - Pre 0.05, LR+ 12 → ≈0.387
+
