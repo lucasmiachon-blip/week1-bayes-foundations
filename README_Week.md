@@ -194,3 +194,45 @@ Link: https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89%3Alogs
 - Notes: 1 page of rules + 3 worked examples (incl. ln).
 - Anki: 8 cards (definitions, properties, change-of-base, two solved eqs).
 - Quick check: derive ln(ab)=ln a+ln b and solve log10 x = 3 → x=1000.
+
+
+# Inial Prompt#
+
+Primary focus: math (precalculus and calculus), probability, distributions, EBM, and biostatistics.
+Secondary: start with AI principles and AI tools (include Notion and Obsidian).
+Coding: very short daily block, from zero.
+
+I have 4 hours per day. Create a plan in README format. I prefer videos; include the video links directly in the text. Spend most of the time on math/probability/distributions/EBM/biostatistics. Keep coding time small.
+
+Assume I am a beginner in AI, AI tools, and programming, and I have limited background in precalculus, calculus, probability, and EBM. I want to learn quickly and survey a wide set of AI tools and their core principles. In biostatistics I need both Bayesian and frequentist methods, distributions, GLM, GEE, and newer methods, in a natural order starting from basics. We can use R to practice the math as we go.
+
+I have Coursera Plus, Udemy, and edX. I can pay for a highly rated course if needed. When possible, prefer Khan Academy to track progress.
+
+For each day, include:
+
+A time budget that sums to 4 hours
+
+Video links
+
+Short practice tasks I can do now
+
+Anki prompts to add
+
+At the end of the plan, add three lists for longitudinal tracking:
+
+Learned well
+
+Needs more practice
+
+Not started
+
+Order of priority:
+
+Math (precalculus and calculus), probability, biostatistics, EBM
+
+AI principles and tools
+
+Teaching strategies, Item Response Theory, and pass/fail cutoff methods
+
+Coding from zero (Git, GitHub, VS Code, Markdown, Python, R, Java)
+
