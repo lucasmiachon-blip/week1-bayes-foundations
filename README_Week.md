@@ -180,6 +180,7 @@ Add 10–20 Anki cards per day from problems you missed.
 ## EXTRA  
 ## Focus Course: Logarithms (Khan Academy)
 Link: https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89%3Alogs
+https://www.khanacademy.org/math/trigonometry?utm_source=chatgpt.com
 
 ### Why for biostats
 - Natural log (ln), base-10 log, change of base
@@ -235,4 +236,5 @@ AI principles and tools
 Teaching strategies, Item Response Theory, and pass/fail cutoff methods
 
 Coding from zero (Git, GitHub, VS Code, Markdown, Python, R, Java)
+
 
