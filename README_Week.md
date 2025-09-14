@@ -244,8 +244,12 @@ Coding from zero (Git, GitHub, VS Code, Markdown, Python, R, Java)
 ### Trigonometry advanced
 
 ### Pre calculus
+
+### Basic computing to advanced
+
 ---  
 #  Aprendido
+
 
 
 
