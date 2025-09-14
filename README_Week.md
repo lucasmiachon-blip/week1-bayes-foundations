@@ -1,84 +1,103 @@
-# Week 1 — Bayesian EBM Foundations (links + minutes)
-
-Daily cadence (45–75 min)
-- 10–15 min Algebra
-- 15–25 min Probability/Bayes (clinician focus)
-- 10–15 min Programming (R or Python)
-- 5–10 min Tooling (repo, Quarto, Anki, bookmarks)
-
-Links (used all week)
-- Algebra — https://www.khanacademy.org/math/algebra
-- Probability — https://www.khanacademy.org/math/statistics-probability
-- Harvard Stat 110 playlist — https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo
-- CEBM: Likelihood Ratios — https://www.cebm.ox.ac.uk/resources/ebm-tools/likelihood-ratios
-- Fagan explainer — https://s4be.cochrane.org/blog/2016/07/26/fagans-nomogram-for-bayes-theorem/
-- Quarto Get Started — https://quarto.org/docs/get-started/
-- GitHub Hello World — https://docs.github.com/en/get-started/start-your-journey/hello-world
-- Anki Manual — https://docs.ankiweb.net/
-- Python for Everybody — https://www.coursera.org/specializations/python
-- R Programming (JHU) — https://www.coursera.org/learn/r-programming
+# Week 2 — Math → Probability → Biostatistics/EBM (Primary) • AI tools (Secondary) • Coding (Minimal)
+**Time**: 4 h/day.  
+**Priority split**: 3 h core (math/prob/distributions/EBM/biostats) • 30 min AI tools • 30 min coding.  
+**Tools to touch this week**: Notion, Obsidian, VS Code, Git/GitHub, Markdown.  
+**Practice**: Anki daily (5–10 cards), 1 mini-calc or LR problem/day, short note in README_Math.md / README_Bayesian_EBM.md.
 
 ---
 
-## Day 1 (45–75 min)
-Algebra (10–15): Khan → Variables and two-step equations (first unit).
-Probability/Bayes (15–25): CEBM Likelihood Ratios; read Fagan explainer.
-Programming (10–15): RStudio basics (Console, Run) or start PY4E/R Programming.
-Tooling (5–10): Create/verify repo `week1-bayes-foundations`; enable 2FA; Quarto “Hello” render.
-Ship: commit `day1: algebra notes, LR notes, first render`.
-
-## Day 2 (45–75 min)
-- Markdown Crash Course (video): https://www.youtube.com/watch?v=HUBNt18RFbo
-- GitHub Markdown basics (docs): https://docs.github.com/.../basic-writing-and-formatting-syntax
-- Quickstart: writing on GitHub (docs): https://docs.github.com/.../quickstart-for-writing-on-github
-- VS Code intro videos (official): https://code.visualstudio.com/docs/getstarted/introvideos
-- VS Code tips (official page): https://code.visualstudio.com/docs/getstarted/tips-and-tricks
-- Git & GitHub Crash Course 2025 (video): https://www.youtube.com/watch?v=vA5TTz6BXhY
-- Python functions (Corey Schafer, video): https://www.youtube.com/watch?v=9Os0o3wzS_I
-- Python in ~15 min (video): https://www.youtube.com/watch?v=1KGWF704DUA
-- Python docs (home): https://docs.python.org/3/
-- Python tutorial (official): https://docs.python.org/3/tutorial/index.html
-
-## Day 3 (45–75 min)
-Algebra (10–15): Multi-step linear equations.
-Probability/Bayes (15–25): Work 3 vignettes; use Fagan method.
-Programming (10–15): Add a table of cases in `bayes-fagan.qmd` and render HTML.
-Tooling (5–10): Short “Formulas” and “Takeaways” sections.
-Ship: `day3: vignettes table + formulas`.
-
-## Day 4 (45–75 min)
-Algebra (10–15): Intro to exponents and logs (properties).
-Probability/Bayes (15–25): Log-odds view: posterior logit = prior logit + log(LR).
-Programming (10–15): Implement `logit`, `inv_logit`, `post_prob_log`; check equals `post_prob`.
-Tooling (5–10): Update README with one paragraph on log-odds.
-Ship: `day4: logit method + checks`.
-
-## Day 5 (45–75 min)
-Algebra (10–15): Fractions with variables; simplify.
-Probability/Bayes (15–25): Multiple independent tests → multiply LRs (or add log LRs).
-Programming (10–15): Add a multi-test example chunk; verify results match both methods.
-Tooling (5–10): Clean repo; push.
-Ship: `day5: multi-test example`.
-
-## Day 6 (45–75 min)
-Algebra (10–15): Quick mixed practice (percent, ratio, solve for x).
-Probability/Bayes (15–25): Mixed set of 5 cases (2 positive LRs, 3 negative).
-Programming (10–15): Render PDF (install TinyTeX if needed).
-Tooling (5–10): Save `bayes-fagan.html/pdf`; push.
-Ship: `day6: mixed cases + pdf`.
-
-## Day 7 (45–75 min)
-Algebra (10–15): Light review.
-Probability/Bayes (15–25): Summarize what changes pre→post most; note LR thresholds.
-Programming (10–15): Small refactor of helper functions; tidy file.
-Tooling (5–10): Write a 5-bullet summary in `README_Bayesian_EBM.md`; optional GitHub Pages.
-Ship: `day7: weekly summary + publish`.
+## Daily Structure (repeat each day)
+- **180 min Core**: watch selected videos + do 2–3 worked examples in notes.
+- **30 min AI tools**: follow a beginner video segment and set up 1 template or action.
+- **30 min Coding**: one tiny task only (Python or R), saved to `week2/`.
 
 ---
 
-## Quick checks (put in bayes-fagan.qmd)
-- Pre 0.20, LR+ 4 → 0.50
-- Pre 0.60, LR− 0.2 → ≈0.231
-- Pre 0.05, LR+ 12 → ≈0.387
+## Day 1 — Precalculus refresh → Bayes intuition → EBM LR basics
+**Videos**
+- Precalculus essentials (limits/functions): Khan Academy (pick 2–3 short videos)  
+  https://www.youtube.com/playlist?list=PLSQl0a2vh4HB3iwQV5DR_W-Tzh9aT0C9U
+- Bayes intuition for medical tests (visual)  
+  https://www.3blue1brown.com/lessons/better-bayes
+- Likelihood ratios primer (read/skim)  
+  https://www.cebm.ox.ac.uk/resources/ebm-tools/likelihood-ratios
 
+**Practice**
+- Convert 3 clinic percentages ↔ odds.  
+- Compute LR+ and LR− from given sens/spec (2×2 table).  
+- Note: add 5 Anki cards.
 
+**AI tools (30 min)**  
+- Notion “Introduction” → create a **Daily Note** page and a **Cases** database.  
+  https://www.notion.com/help/notion-academy/course/101-introduction
+
+**Coding (30 min)**  
+- Python: create `post_prob.py` with function `post_prob(pre_prob, LR)`; test 3 cases. Save outputs.
+
+---
+
+## Day 2 — Calculus intuition → Distributions overview → Fagan
+**Videos**
+- Essence of Calculus (watch first 2 chapters)  
+  https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr
+- Probability distributions overview (StatQuest)  
+  https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9
+- Fagan nomogram walkthrough (short)  
+  https://www.youtube.com/watch?v=UNKEvEB7jd8
+
+**Practice**
+- Use LR and pretest to get post-test probability by formula and by Fagan (one case each).  
+- Anki x5.
+
+**AI tools (30 min)**  
+- Obsidian “Start HERE” video; create vault **Clinical Math** and a template note.  
+  https://www.youtube.com/watch?v=QgbLb6QCK88
+
+**Coding (30 min)**  
+- R: write `post_prob(pre, LR)` and mirror Day 1 tests in R script.
+
+---
+
+## Day 3 — Core distributions (Normal, Binomial, Poisson) → Logistic intro
+**Videos**
+- Normal/Binomial/Poisson (pick 2–3 StatQuest clips)  
+  https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9
+- Logistic regression (concept)  
+  https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe
+
+**Practice**
+- Compute binomial probabilities for 3 cases (R or Python), interpret clinically.  
+- Anki x5.
+
+**AI tools (30 min)**  
+- Notion beginner tutorial segment; add a **Templates** database (Note, Case, Calculation).  
+  https://www.youtube.com/watch?v=kOf3QSBV29Y
+
+**Coding (30 min)**  
+- Python: small script to compute Normal CDF for z values you choose; save results to Markdown.
+
+---
+
+## Day 4 — Frequentist vs Bayesian → Post-test workflows
+**Videos**
+- Bayesian vs Frequentist (short explainer)  
+  https://www.youtube.com/watch?v=r76oDIvwETI
+- Stat 110 Bayes & conditional probability (one lecture)  
+  https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo
+
+**Practice**
+- Work one bedside scenario both ways: PPV/NPV vs LR/Fagan.  
+- Anki x5.
+
+**AI tools (30 min)**  
+- Obsidian: set up **Templates** and enable daily notes; link to your `week2/` files.
+
+**Coding (30 min)**  
+- R: function to convert probability ↔ odds; verify three LR problems.
+
+---
+
+## Day 5 — GLM overview → Poisson for counts → GEE concept
+**Videos**
+- GLM/Design matrix intuition (StatQuest)  
+  https://www.youtube.com/watch?v=CqLGvw
