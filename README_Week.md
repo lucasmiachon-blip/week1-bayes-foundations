@@ -247,7 +247,7 @@ Coding from zero (Git, GitHub, VS Code, Markdown, Python, R, Java)
 
 ### Basic computing to advanced
 
-### Very basic coding
+### Very basic coding, ingluing git, github bookmarkers... from the zero 
 
 ## Notes
 
@@ -255,6 +255,7 @@ More time for EMB
 
 ---  
 #  Aprendido
+
 
 
 
