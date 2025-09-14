@@ -238,14 +238,15 @@ Teaching strategies, Item Response Theory, and pass/fail cutoff methods
 Coding from zero (Git, GitHub, VS Code, Markdown, Python, R, Java)
 
 #  Adicionar
-
+---
 ###  Theory of information
 
 ### Trigonometry advanced
 
 ### Pre calculus
-
+---  
 #  Aprendido
+
 
 
 
