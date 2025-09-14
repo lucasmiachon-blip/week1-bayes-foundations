@@ -176,3 +176,21 @@ Add 10–20 Anki cards per day from problems you missed.
 ---
 
 ## Folder structure
+
+## EXTRA  
+## Focus Course: Logarithms (Khan Academy)
+Link: https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89%3Alogs
+
+### Why for biostats
+- Natural log (ln), base-10 log, change of base
+- Log rules for transformations, OR/log-odds, log-likelihood intuition
+
+### How to complete (2–3 sessions)
+1) Sign in → open the unit → turn on “Unit mastery”.
+2) Do in order: intro → e & ln → properties → change of base → solve log eqs → graph logs → applications.
+3) After each subtopic: finish the practice until “Mastered”.
+
+### Minimum outputs
+- Notes: 1 page of rules + 3 worked examples (incl. ln).
+- Anki: 8 cards (definitions, properties, change-of-base, two solved eqs).
+- Quick check: derive ln(ab)=ln a+ln b and solve log10 x = 3 → x=1000.
