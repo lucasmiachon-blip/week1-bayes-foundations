@@ -197,7 +197,7 @@ https://www.khanacademy.org/math/trigonometry?utm_source=chatgpt.com
 - Quick check: derive ln(ab)=ln a+ln b and solve log10 x = 3 → x=1000.
 
 
-# Inial Prompt#
+# Inial Prompt
 
 Primary focus: math (precalculus and calculus), probability, distributions, EBM, and biostatistics.
 Secondary: start with AI principles and AI tools (include Notion and Obsidian).
@@ -239,13 +239,14 @@ Coding from zero (Git, GitHub, VS Code, Markdown, Python, R, Java)
 
 #  Adicionar
 
-##  Theory of information
+###  Theory of information
 
-## Trigonometry advanced
+### Trigonometry advanced
 
-## Pre calculus
+### Pre calculus
 
 #  Aprendido
+
 
 
 
